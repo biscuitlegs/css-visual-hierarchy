@@ -8,12 +8,35 @@
     grid-column: 1 / -1;
 }
 
+.importance-1 {
+    background: rgb(170, 170, 170);
+}
+
+.importance-2 {
+    background: rgb(140, 140, 140);
+}
+
+.importance-3 {
+    background: rgb(110, 110, 110);
+}
+
+.importance-4 {
+    background: rgb(80, 80, 80);
+}
+
+.importance-5 {
+    background: rgb(50, 50, 50);
+}
+
+.importance-6 {
+    background: rgb(34, 34, 34);
+}
+
 /*Main Nav*/
 
 .main-nav {
     width: 100%;
     height: 100px;
-    background: rgb(250, 38, 38);
     margin-bottom: 80px;
     display: flex;
     align-items: center;
@@ -23,17 +46,16 @@
 .main-nav .search {
     width: 350px;
     height: 55px;
+    border: none;
 }
 
 .main-nav > * {
-    background: #fff;
     height: 30px;
     width: 100px;
 }
 
 .main-nav .logo {
     height: 60px;
-    background-color: rgb(58, 146, 168);
 }
 
 /*Main Grid*/
@@ -80,7 +102,6 @@
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    background: cornflowerblue;
     margin-top: 80px;
     border-radius: 4px;
     height: 700px;
@@ -92,13 +113,11 @@
     border-radius: 50%;
     position: absolute;
     top: -125px;
-    background: chartreuse;
 }
 
 .headline-aside-link {
     height: 50px;
     width: 235px;
-    background: #fff;
     margin-top: 135px;
     border-radius: 4px;
 }
@@ -106,25 +125,22 @@
 .headline-aside-title {
     height: 110px;
     width: 80%;
-    background: crimson;
 }
 
 .headline-aside-content {
     height: 130px;
     width: 80%;
-    background: rgb(20, 220, 110);
 }
 
 .headline-aside-input {
     height: 65px;
     width: 80%;
-    background: rgb(170, 231, 57);
+    border: none;
 }
 
 .headline-aside-info {
     height: 50px;
     width: 80%;
-    background: crimson;
 }
 
 /*Large Article*/
@@ -146,38 +162,32 @@
     width: 170px;
     height: 170px;
     grid-area: image;
-    background: crimson;
     border-radius: 4px;
     align-self: center;
 }
 
 .article-large-author {
     grid-area: author;
-    background: darkcyan;
     width: 200px;
 }
 
 .article-large-title {
     grid-area: title;
-    background: darkmagenta;
     width: 380px;
 }
 
 .article-large-info {
     grid-area: info;
-    background: darkorange;
     width: 400px;
 }
 
 .article-large-sample {
     grid-area: sample;
-    background: darkturquoise;
     width: 600px;
 }
 
 .article-large-link {
     grid-area: link;
-    background: deeppink;
     width: 170px;
 }
 
@@ -193,7 +203,6 @@
 
 .article-small-info {
     grid-area: info;
-    background: darkblue;
     width: 500px;
 }
 
@@ -201,14 +210,12 @@
     grid-area: image;
     height: 120px;
     width: 120px;
-    background: chartreuse;
     border-radius: 4px;
     align-self: center;
 }
 
 .article-small-title {
     grid-area: title;
-    background: darkkhaki;
     width: 450px;
 }
 
@@ -222,7 +229,6 @@
 }
 
 .card {
-    background: darkorange;
     flex: 1 1 33%;
     margin: 10px;
     height: 580px;
@@ -236,7 +242,6 @@
 .card-title-flair {
     height: 15px;
     width: 120px;
-    background-color: chartreuse;
     position: relative;
     right: 75px;
 }
@@ -244,19 +249,16 @@
 .card-title {
     width: 270px;
     height: 92px;
-    background-color: cornflowerblue;
 }
 
 .card-content {
     height: 300px;
     width: 270px;
-    background-color: crimson;
 }
 
 .card-button {
     width: 270px;
     height: 90px;
-    background-color: darkcyan;
 }
 
 /* See More */
@@ -272,7 +274,6 @@
 .see-more-link {
     width: 170px;
     height: 50px;
-    background-color: rgb(214, 91, 54);
     display: block;
 }
 
@@ -298,7 +299,6 @@
 .sponsor {
     width: 500px;
     height: 100%;
-    background-color: darkorange;
     margin: 30px;
 }
 
@@ -308,7 +308,6 @@
     margin-top: 30px;
     width: 100%;
     height: 1000px;
-    background-color: deeppink;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -318,31 +317,26 @@
 .conference-info {
     width: 500px;
     height: 20px;
-    background-color: deepskyblue;
 }
 
 .conference-title {
     width: 600px;
     height: 200px;
-    background-color: forestgreen;
 }
 
 .conference-content {
     width: 650px;
     height: 150px;
-    background-color: greenyellow;
 }
 
 .conference-button {
     width: 500px;
     height: 60px;
-    background-color: indigo;
 }
 
 .conference-image {
     width: 80%;
     height: 500px;
-    background-color: khaki;
 }
 
 /* Spotlight */
@@ -364,21 +358,18 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    background-color: maroon;
 }
 
 .spotlight-title {
     grid-area: title;
     height: 100%;
     width: 500px;
-    background-color: mediumaquamarine;
 }
 
 .spotlight-content {
     grid-area: body;
     width: 100%;
     height: 100%;
-    background-color: mediumorchid;
 }
 
 /* Footer */
@@ -389,30 +380,25 @@
     justify-content: space-around;
     align-items: center;
     height: 500px;
-    background-color: rgb(151, 104, 238);
     margin-top: 30px;
 }
 
 .footer-title {
     height: 35px;
     width: 500px;
-    background-color: mediumseagreen;
 }
 
 .footer-nav-large {
     height: 200px;
     width: 800px;
-    background-color: rgb(77, 180, 221);
 }
 
 .footer-info {
     height: 20px;
     width: 100px;
-    background-color: rgb(223, 76, 76);
 }
 
 .footer-nav-small {
     height: 100px;
     width: 250px;
-    background-color: rgb(153, 179, 60);
 }
